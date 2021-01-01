@@ -46,6 +46,4 @@ app.get('/apps' , (req, res) => {
    res.json(results);
 })
 
-app.listen(8000, ()=> {
-    console.log('host 8000 connected');
-})
+module.exports = app;
